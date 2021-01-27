@@ -6,15 +6,15 @@
 
 ## PROCESOS
 ### Venta de productos 
-* Gestión del pago (metodos pago (credito, debito, contra entrega efect/tarj)
+* Gestión del pago métodos de pago: crédito, débito, contra entrega (efectivo, crédito o débito)
 * Gestión de devoluciones
 * Identificacion del cliente
 * Historico compras de cliente
 * Historico ventas domiciliario
 
 ### Gestión de pedidos
-* Validar atencion de pedido (entrega)
-* Gestión inventario (q exista)
+* Validar atención de pedido (entrega)
+* Gestión inventario (que exista)
 * Comunicación con el cliente asociada al pedido
 * Agendar entregas
 * Visualizar pedidos
@@ -22,22 +22,22 @@
 ### Preparación de pedidos
 * Retirar productos del inventario
 * Confirmar pedidos
-* Identificar entrega y direccion
+* Identificar entrega y dirección
 * Generar facturacion
 
 ### Despacho de pedidos
 * Buscar domiciliario disponible
 * Confirmar domiciliario al cliente
-* Visualizar ubicacion de pedido
-* Seleccionar la ruta optima de entrega de pedidos
+* Visualizar ubicación de pedido
+* Seleccionar la ruta óptima de entrega de pedidos
 
 ### Mercadeo de productos
 * Identificar tendencias de compras
-* Creacion de promociones
+* Creación de promociones
 
 ### Gestión inventario
 * Agregar o sacar productos del inventario
-* Generar alertas sobre cantidades minimas
+* Generar alertas sobre cantidades mínimas
 
 ## HISTORIAS DE USUARIO
 ### Cliente 
