@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tienda online</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--JS-->
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="http://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="fluid-container">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+            <a class="navbar-brand" href="#">Tienda</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">Cesta de compras</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <a href="login.html">Ingresar</a>
+                </span>
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <header class="my-4">
+            <h2>Seleccionar forma de pago</h2>
+        </header>
+        <div class="card">
+            <form class="my-4 px-3">
+                <div class="form-group">
+                    <label for="paymentMethod">Medio de pago</label>
+                    <select class="form-control" id="paymentMethod">
+                        <option value=""></option>
+                        <option value="creditCard">Tarjeta de crédito</option>
+                        <option value="debit">Débito automático</option>
+                        <option value="cardReader">Datafono</option>
+                        <option value="cash">Efectivo</option>
+                    </select>
+                </div>
+                <div id="creditCardDiv">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="creditCardType" id="creditCardType1"
+                            value="option1" checked>
+                        <label class="form-check-label" for="creditCardType1">
+                            VISA
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="creditCardType" id="creditCardType2"
+                            value="option2">
+                        <label class="form-check-label" for="creditCardType2">
+                            MasterCard
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="creditCardType" id="creditCardType3"
+                            value="option2">
+                        <label class="form-check-label" for="creditCardType3">
+                            AMEX
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="creditCardNumber">Número de tarjeta</label>
+                        <input type="text" class="form-control" id="creditCardNumber">
+                    </div>
+                    <div class="form-group">
+                        <label for="creditCardPass">Código de seguridad</label>
+                        <input type="text" class="form-control" id="creditCardPass">
+                    </div>
+                </div>
+                <div id="debitDiv">
+
+                    <div class="form-group">
+                        <label for="bank">Banco</label>
+                        <select class="form-control" id="bank">
+                            <option value="AV Villas">AV Villas</option>
+                            <option value="Bancolombia">Bancolombia</option>
+                            <option value="Davivienda">Davivienda</option>
+                            <option value="Colpatria">Colpatria</option>
+                        </select>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-primary">Continuar</a>
+            </form>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer class="pt-3 pb-1 mt-5">
+        <p>Tienda de barrio. 2020<br>
+            Tels.: +57 123 456 7890 - +57 123 456 7890</p>
+    </footer>
+    <script>
+
+        $(document).ready(function () {
+            $("#debitDiv").hide();
+            $("#creditCardDiv").hide();
+
+            $("#paymentMethod").on("change", function () {
+                if ($("#paymentMethod").val() == "creditCard") {
+                    $("#debitDiv").hide();
+                    $("#creditCardDiv").show();
+                } else if ($("#paymentMethod").val() == "debit") {
+                    $("#debitDiv").show();
+                    $("#creditCardDiv").hide();
+                } else {
+                    $("#debitDiv").hide();
+                    $("#creditCardDiv").hide();
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>
