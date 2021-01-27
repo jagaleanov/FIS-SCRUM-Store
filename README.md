@@ -41,8 +41,8 @@
 
 ## HISTORIAS DE USUARIO
 ### Cliente 
-* Como cliente deseo solicitar a mi tendero productos desde mi pc para facilitar mis compras
-* Como cliente deseo solicitar a mi tendero productos desde mi cel para facilitar mis compras 
+* Como cliente deseo solicitar a mi tendero productos desde mi computador para facilitar mis compras
+* Como cliente deseo solicitar a mi tendero productos desde mi dispositivo para facilitar mis compras 
 * Como cliente deseo programar la hora de entrega
 * Como cliente deseo seleccionar productos y agregarlos a mi pedido de manera grafica para facilitar la compra
 * Como cliente deseo poder seleccionar la lista de mis pedidos para poder cancelar un pedido
