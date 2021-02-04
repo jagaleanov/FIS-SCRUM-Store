@@ -66,7 +66,7 @@
 ### Domiciliario
 * Como domiciliario deseo agrupar mis entregas para hacer eficiente mi trabajo
 
-## Tareas primer ciclo
+## Tareas primer ciclo (Como cliente deseo solicitar a mi tendero productos...)
 * Desarrollar la estructura de la base de datos, llenar con 15-20 productos con su caracterización completa
 
 ![Diagrama DB](diagrama_db.jpg)
