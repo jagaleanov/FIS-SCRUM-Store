@@ -6,6 +6,8 @@ Brayan Esteban Leon Pinto - 20141001002
 
 Jorge Alberto Galeano Vélez - 20172020060
 
+Juan Sebastián Moreno Bocanegra - 20152020097
+
 ## ROLES
 
 * Cliente
