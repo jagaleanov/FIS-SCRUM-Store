@@ -67,6 +67,10 @@
 * Como domiciliario deseo agrupar mis entregas para hacer eficiente mi trabajo
 
 ## Tareas primer ciclo
-* Desarrollar la estructura de la db, llenar con 15-20 productos con su caracterización completa
-* Generar el servicio q permita consultar la db y retornar un json con la descripcion del producto y demas datos para montar en la pagina principal
+* Desarrollar la estructura de la base de datos, llenar con 15-20 productos con su caracterización completa
+
+![Diagrama DB](diagrama_db.jpg)
+
+* Generar el servicio que permita consultar la base de datos y retornar un json con la descripcion del producto y demas datos para montar en la pagina principal.
+
 * Seleccionar en un cliente temporal el producto para que al finalizar el registro de una compra se registre el pedido completo asociado a un cliente (armar carrito en $session)
