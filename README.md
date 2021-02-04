@@ -77,4 +77,7 @@
 
 * Generar el servicio que permita consultar la base de datos y retornar un json con la descripcion del producto y demas datos para montar en la pagina principal.
 
+[Script conosulta de productos](https://github.com/jagaleanov/tienda/blob/main/03_db_consummer.php)
+
+## Tareas segundo ciclo
 * Seleccionar en un cliente temporal el producto para que al finalizar el registro de una compra se registre el pedido completo asociado a un cliente (armar carrito en $session)
