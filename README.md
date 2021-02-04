@@ -70,6 +70,8 @@
 * Desarrollar la estructura de la base de datos, llenar con 15-20 productos con su caracterización completa
 
 ![Diagrama DB](diagrama_db.jpg)
+[Script creación base de datos](https://github.com/jagaleanov/tienda/blob/main/01_BD.sql)
+[Script llenado base de datos](https://github.com/jagaleanov/tienda/blob/main/02_script_llenado.sql)
 
 * Generar el servicio que permita consultar la base de datos y retornar un json con la descripcion del producto y demas datos para montar en la pagina principal.
 
