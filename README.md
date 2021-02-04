@@ -1,10 +1,12 @@
 # TIENDA EN LÍNEA - FIS
-## ROLES
 
 Lindsey Katherine Camargo Beltrán - 20172020037
+
 Brayan Esteban Leon Pinto - 20141001002
+
 Jorge Alberto Galeano Vélez - 20172020060
 
+## ROLES
 
 * Cliente
 * Tendero
