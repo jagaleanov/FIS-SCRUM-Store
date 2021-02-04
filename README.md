@@ -75,7 +75,7 @@
 
 [Script llenado base de datos](https://github.com/jagaleanov/tienda/blob/main/02_script_llenado.sql)
 
-* Generar el servicio que permita consultar la base de datos y retornar un json con la descripcion del producto y demas datos para montar en la pagina principal.
+* Generar el servicio que permita consultar la base de datos y retornar un json con la descripcion del producto y demas datos para montar en la página principal.
 
 [Script consultas de productos](https://github.com/jagaleanov/tienda/blob/main/03_db_consummer.php)
 
