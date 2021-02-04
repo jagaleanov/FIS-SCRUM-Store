@@ -1,5 +1,11 @@
 # TIENDA EN LÍNEA - FIS
 ## ROLES
+
+Brayan León
+Lindsey
+Jorge Galeano - 20172020060
+
+
 * Cliente
 * Tendero
 * Domiciliario
@@ -67,7 +73,7 @@
 * Como domiciliario deseo agrupar mis entregas para hacer eficiente mi trabajo
 
 ## Tareas primer ciclo (Como cliente deseo solicitar a mi tendero productos...)
-* Desarrollar la estructura de la base de datos, llenar con 15-20 productos con su caracterización completa
+* Desarrollar la estructura de la base de datos. Llenar con 15-20 productos con su caracterización completa.
 
 ![Diagrama DB](diagrama_db.jpg)
 
@@ -75,9 +81,9 @@
 
 [Script llenado base de datos](https://github.com/jagaleanov/tienda/blob/main/02_script_llenado.sql)
 
-* Generar el servicio que permita consultar la base de datos y retornar un json con la descripcion del producto y demas datos para montar en la página principal.
+* Generar el servicio que permita consultar la base de datos y retornar un json con la descripción del producto y demás datos para montar en la página principal.
 
 [Script consultas de productos](https://github.com/jagaleanov/tienda/blob/main/03_db_consummer.php)
 
 ## Tareas segundo ciclo
-* Seleccionar en un cliente temporal el producto para que al finalizar el registro de una compra se registre el pedido completo asociado a un cliente (armar carrito en $session)
+* Seleccionar en un cliente temporal el producto para que al finalizar el registro de una compra se registre el pedido completo asociado a un cliente. (Armar carrito en $session)
