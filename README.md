@@ -1,9 +1,9 @@
 # TIENDA EN LÍNEA - FIS
 ## ROLES
 
-Brayan León
-Lindsey
-Jorge Galeano - 20172020060
+Lindsey Katherine Camargo Beltrán - 20172020037
+Brayan Esteban Leon Pinto - 20141001002
+Jorge Alberto Galeano Vélez - 20172020060
 
 
 * Cliente
